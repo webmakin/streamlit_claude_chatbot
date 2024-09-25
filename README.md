@@ -36,3 +36,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run Chatbot.py
 ```
+when accessing file Q&A
+```
+streamlit run Chatbot.py --server.enableXsrfProtection false
+```
